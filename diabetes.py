@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Carregar o modelo
-model = joblib.load('modelo_diabetes_lightgbm.pkl')
+model = joblib.load('model/modelo_diabetes_lightgbm.pkl')
 
 def predict_diabetes(data, threshold=0.38):
     df = pd.DataFrame([data], columns=['gender', 'age', 'hypertension', 'heart_disease', 
