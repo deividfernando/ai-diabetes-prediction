@@ -21,6 +21,8 @@ A previsão de risco de diabetes é baseada nos seguintes fatores de entrada:
 
 ## Dataset Utilizado
 
+https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
+
 O modelo foi treinado com um conjunto de dados público sobre saúde e diabetes, que contém informações de diversos pacientes. Os dados incluem:
 - Informações demográficas
 - Condições de saúde (hipertensão, doença cardíaca, etc.)
